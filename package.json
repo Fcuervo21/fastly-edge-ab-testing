@@ -1,0 +1,14 @@
+{
+  "name": "fastly-edge-ab-testing",
+  "version": "1.0.0",
+  "description": "Edge-driven A/B split testing framework on Fastly Compute — zero-latency bucket allocation with dynamic cookies",
+  "private": true,
+  "scripts": {
+    "build": "js-compute-runtime ./src/index.js ./bin/main.wasm",
+    "start": "fastly compute serve",
+    "deploy": "fastly compute deploy"
+  },
+  "devDependencies": {
+    "@fastly/js-compute": "^3.22.5"
+  }
+}

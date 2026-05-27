@@ -1,0 +1,14 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://www.fastly.com/documentation/reference/compute/fastly-toml
+
+authors = ["demo@fastly.com"]
+description = "Zero-latency A/B split testing at the edge — Fastly Compute service with dynamic cookie-based bucket allocation"
+language = "javascript"
+manifest_version = 3
+name = "edge-ab-testing"
+service_id = "b44UJB6QTkYc2we4tAJ9gg"
+
+[local_server]
+
+[scripts]
+  build = "npm run build"
