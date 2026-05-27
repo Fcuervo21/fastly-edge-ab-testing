@@ -1,8 +1,10 @@
 # Edge A/B Testing Framework on Fastly Compute
 
 A zero-latency bucket allocation system that executes edge-driven split testing entirely within a Fastly Compute service — no origin server, no round-trips, no waiting.
+Website: https://implicitly-grown-barnacle.edgecompute.app
 
 ---
+Created by Fernando Cuervo
 
 ## Architecture & Request Flow
 
